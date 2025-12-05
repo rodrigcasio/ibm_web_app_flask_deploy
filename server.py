@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from Maths.mathematics import summation, subtraction, multiplication
 # Import the Maths package here
 
 app = Flask("Mathematics Problem Solver")
