@@ -10,7 +10,7 @@
         }
         
         const data = await response.text();
-        document.getElementById("system_response").innerHTML = data;
+        document.getElementById("system_response").innerHTML = data
     } catch (error) {
         console.error('Error:', error);
         document.getElementById("system_response").innerHTML = 'An error occurred, please try again.';
